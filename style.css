@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-family: 'Noto Serif Bengali', serif;
+}
+.nav-item{
+    padding: 0 2vw;
+}
+.cont{
+    display: flex;
+    width: 100%;
+    flex-direction:row;
+    background-color: rgb(73, 201, 190);
+
+}
+.pic{
+    width: 50%;
+    text-align: center;
+    font-size: 1vw;
+}
+.pic img{
+    width: 100%;
+}
+#logo{
+   
+    height: 70%;
+    width: 100%;
+}
+#pabda{
+    height: 100%;
+}
+#tle h2{
+    background-color: rgb(53, 105, 106);
+    color: aliceblue;
+}
+.fish{
+    display: flex;
+    width: 100%;
+}
+.f2{
+ width: 70%;
+ 
+}
+.fishsub{
+    background-color: bisque;
+    padding: 1vw 1vw;
+    text-align: center;
+    border: 2px solid rgb(150, 138, 12);
+
+}
+.fishsub img{
+    width: 10vw;
+    height: 10vw;
+}
+button{
+    padding: 1vw 2vw;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+footer , footer p{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    margin-bottom: 0%;
+    text-decoration: none;
+}
+footer p a{
+    text-decoration: none;
+    color: wheat;
+}
+#Contact{
+    background-color: #9ddfc5;
+    text-align: center;
+}
+
+@media (max-width:1353px) {
+    .cont{
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+    }
+    .pic{
+        width: 50%;
+        font-size: 4vw;
+    }
+    .pic img{
+        width: 4vw;
+        height: 3vw;
+    }
+    #tle{
+        justify-content: center;
+        
+        width: 100%;
+    } 
+    #pabda{
+        height: 80%;
+        width: 100%;
+    }
+    #logo{
+        height: 100%;
+        width: 100%;
+    }
+    #pabdad{
+        height: 80%;
+        width: 100%;
+    }
+    .fish{
+        flex-direction: column;
+    }
+    .f2{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .fishsub{
+        width: 50%;
+    }
+    .fishsub img{
+        width: 28vw;
+        height: 23vw;
+    }
+    footer p{
+        padding: 2vw 1vw;
+    }
+}
